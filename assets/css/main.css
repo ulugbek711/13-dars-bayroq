@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 255, 163, 0.31) 0%, rgba(0, 255, 163, 0.31) 100%), linear-gradient(0deg, rgba(255, 0, 0, 0.07) 0%, rgba(255, 0, 0, 0.07) 100%), rgba(216, 210, 210, 0.80);
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1320px;
+    height: 800px;
+    padding-top: 20px;
+    
+    
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-row-gap: 70px;
+    grid-column-gap: 30px;
+}
+
+.box1 {
+    display: grid;
+    grid-template-areas: "row1 row2 row3";
+}
+
+.row1 {
+    background-color:  rgb(0, 0, 182) ;
+
+}
+
+.row2 {
+    background-color: white;
+}
+
+.row3 {
+    background-color: rgb(207, 61, 61);
+}
+
+.box2 {
+    display: grid;
+    grid-template-areas: "row1 row2 row3";
+}
+
+.row4 {
+    background-color: rgb(62, 129, 62);
+}
+
+.row5 {
+    background-color: white;
+}
+
+.row6 {
+    background-color: rgb(207, 61, 61);
+}
+
+.box3 {
+    display: grid;
+    height: 220px;
+    position: relative;
+    top: -10px;
+}
+
+.row7 {
+    background-color: black;
+}
+
+.row8 {
+    background-color: red;
+}
+
+.row9 {
+    background-color: yellow;
+}
+
+.box4 {
+    display: grid;
+
+}
+
+.row10 {
+    background-color: white;
+}
+
+.row11 {
+    background-color: rgb(62, 129, 62);
+}
+.cards{
+    padding-top: 15px;
+    padding-left: 30px;
+    height: 220px;
+    position: relative;
+    left: 500px;
+    background: linear-gradient(0deg, rgb(0, 0, 182) 0 37%, white 15% 45%,red 10% 50%, white 15% 58%, rgb(0, 0, 182)  40% 100%);
+
+}
+
+.row12 {
+    background-color: rgb(253, 30, 30);
+}
+
+.box5 {
+    background: linear-gradient(135deg, rgb(63, 170, 1) 0 37%, yellow 20% 62%, red 40% 100%);
+}
+
+.box6 {
+    background: linear-gradient(33deg, rgb(63, 170, 1) 0 50%, yellow 50% 100%);
+}
+
+.card_logo {
+    max-width: 100px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+
+
+
+.box7 {
+    position: relative;
+    top: 10px;
+    height: 180px;
+    background-color: rgb(15, 98, 180);
+}
+
+.card7 {
+    position: relative;
+    top: 70px;
+    height: 40px;
+    background-color: yellow;
+}
+
+.card8 {
+    position: relative;
+    top: -40px;
+    left: 100px;
+    width: 40px;
+    height: 180px;
+    background-color: yellow;
+}
+
+
+
+
+
+
+.box8 {
+    display: grid;
+    position: relative;
+    top: 10px;
+}
+
+.card10 {
+    background-color: dodgerblue;
+}
+
+.card11 {
+    background-color: black;
+}
+
+.card12 {
+    background-color: white;
+}
+.card_img{
+    width: 30px;
+}
+.card_img1{
+    width: 30px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+}
+.card_img2{
+    width: 30px;
+    position: relative;
+    top: 145px;
+    left: 140px;
+}
